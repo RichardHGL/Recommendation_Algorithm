@@ -1,0 +1,3 @@
+首先用extract_knn_net.py来生成bianry或者权值的knn图
+然后用vec_deal_knn.py来对所得LINE向量进行一个相似度计算
+然后根据得到的相似度调用run_knn_item和run_knn_user
